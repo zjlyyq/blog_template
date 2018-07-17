@@ -1,12 +1,13 @@
 /*基础样式开始*/
 
-body {}
+body {
+    margin: 0;
+}
 
 
 /*列表样式*/
 
-ul,
-li {
+ul,li {
     list-style: none;
     margin: 0;
     margin: 0 .625rem/* 10px */
@@ -19,7 +20,7 @@ a {
 }
 
 p {
-    margin: 0/* 0px */
+    margin: 10px 0 10px 10px;
 }
 
 
@@ -112,6 +113,7 @@ nav ul {
     ;
     height: 2rem/* 32px */
     ;
+     margin: 10px 10px 10px 0;
 }
 
 .navicons {
@@ -150,6 +152,7 @@ nav ul {
     padding: .625rem/* 10px */
     0 .625rem/* 10px */
     0;
+    margin: 0;
 }
 
 #mnav ul li {
